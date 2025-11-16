@@ -249,50 +249,6 @@ Every API call enforces tenant isolation:
 
 **Guarantee:** Zero data leakage between tenants
 
----
-
-## 📞 Client Presentation Guide
-
-### Recommended Flow
-
-1. **Start with the problem** (5 min)
-   - Traditional SIEMs drown analysts in noise
-   - 60-80% of alerts are false positives
-   - Manual investigations take 30-60 minutes
-   - Multi-stage attacks go undetected
-
-2. **Introduce the solution** (10 min)
-   - AI-first SIEM that learns from your team
-   - 4-service architecture (show diagram)
-   - Every alert/investigation makes it smarter
-
-3. **Walk through a real attack** (15 min)
-   - Use the AWS credential compromise example
-   - Show each enrichment phase
-   - Highlight AI decisions at each step
-   - End with 5-second AI investigation
-
-4. **Show the learning loop** (10 min)
-   - Day 1 vs Day 90 comparison
-   - How playbooks are learned
-   - How accuracy improves over time
-
-5. **Metrics & ROI** (10 min)
-   - 40-60% noise reduction
-   - 360-720x faster investigation
-   - 80%+ playbook availability
-   - 20-40% more campaign detection
-
-6. **Frontend demo** (10 min)
-   - Show AI chat interface
-   - Dynamic content rendering
-   - Playbook recommendations
-   - Campaign visualization
-
-7. **Q&A** (Open)
-
----
-
 ## 📖 Additional Resources
 
 ### Implementation Documentation
@@ -310,34 +266,6 @@ Every API call enforces tenant isolation:
 - `/docs/frontend-AI-FIRST_MIGRATION/PRODUCTION_READY_PLAN.md`
 - `/frontend/secops-dashboard/README.md`
 
----
-
-## 🎯 Key Talking Points for Clients
-
-1. **"The system gets smarter with every incident your team resolves"**
-   - Not a static SIEM, it's a learning platform
-   - Your organizational memory in AI form
-
-2. **"We've pre-trained it on security best practices, but it adapts to YOUR environment"**
-   - Generic Sigma rules + organization-specific learning
-   - Your team's expertise encoded in the system
-
-3. **"It doesn't replace analysts, it amplifies them"**
-   - Handles 40-60% of noise automatically
-   - Provides context for the remaining 40-60%
-   - Recommends proven playbooks
-
-4. **"Multi-stage attacks that take hours/days are detected within 1 hour"**
-   - Campaign detection clusters related alerts
-   - MITRE kill chain sequencing
-   - AI-generated attack narrative
-
-5. **"After 6 months, you'll have a battle-tested playbook library"**
-   - Every resolution becomes a reusable playbook
-   - 80%+ of future alerts have playbook recommendations
-   - Consistent response procedures
-
----
 
 ## 🚀 Competitive Differentiation
 
